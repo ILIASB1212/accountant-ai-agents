@@ -1,0 +1,37 @@
+# Core LangChain
+langchain
+langchain-core
+langchain-openai
+langchain-groq
+langchain-text-splitters
+langchain_community
+
+# Document Loaders
+pypdf2
+beautifulsoup4
+requests
+
+# Tracing & Monitoring
+langsmith
+langgraph
+
+# Web Framework
+fastapi
+uvicorn
+python-multipart
+aiofiles
+
+# Database & Auth
+sqlalchemy
+passlib
+bcrypt==4.0.1  # Kept version as requested
+pyjwt
+
+
+# Utilities
+python-dotenv
+pydantic
+docx2txt
+streamlit
+google-search-results
+ipykernel

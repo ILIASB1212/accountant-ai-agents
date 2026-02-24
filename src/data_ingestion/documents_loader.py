@@ -31,6 +31,10 @@ class DocumentLoader:
                         message=f"Failed to load documents {e}",
                         error_detail=e
                     )
+        elif not self.docs:
+            logging.warning(f"⚠️ No documents found in {self.directory}")
+            print(f"⚠️ No documents found in {self.directory}")
+            return []
          
         return self.docs
     

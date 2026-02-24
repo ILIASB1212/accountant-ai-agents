@@ -22,6 +22,7 @@ from utils.web_search_tool import search
 from utils.rag_web_base_loader_tool import web_loader_tool
 from langgraph.prebuilt import ToolNode
 from langgraph.prebuilt import tools_condition
+from utils.cgnc import cgnc_tool
 #from utils import search, web_loader_tool
 
 
@@ -37,7 +38,7 @@ class State(TypedDict):
 
 #initiating tools
 
-tools=[search,web_loader_tool]
+tools=[search,web_loader_tool,cgnc_tool]
 llm_with_tools=llm_groq.bind_tools(tools)
 #functions for llms
 def superbot(state:State):
@@ -48,7 +49,7 @@ def tool_calling_llm(state:State):
     return {"messages":[llm_with_tools.invoke(state["messages"])]}
 
 from langchain_core.messages import AIMessage, HumanMessage,SystemMessage
-prompt="your goal is to take a raw text response and u need to structure informations if you recive empty content you need to mention it "
+prompt="your goal is to take a raw text response and u need to structure informations if you recive empty content you need to mention it if you recive some fiannce question u need to use some tools related to it "
 
 def agent_structring_response(state:State):
     system_message = SystemMessage(content=prompt)
@@ -74,6 +75,9 @@ graph.add_conditional_edges(
     tools_condition,
 )
 graph.add_edge("tools", "structures")
+graph.add_edge("structures", "tools")
+
+
 graph.add_edge("structures", END)
 
 graph_builder=graph.compile()

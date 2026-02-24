@@ -5,8 +5,10 @@ langchain-openai
 langchain-groq
 langchain-text-splitters
 langchain_community
+langchain_chroma 
 
 # Document Loaders
+pypdf
 pypdf2
 beautifulsoup4
 requests
@@ -35,3 +37,7 @@ docx2txt
 streamlit
 google-search-results
 ipykernel
+ipywidgets
+
+sentence-transformers
+langchain-huggingface

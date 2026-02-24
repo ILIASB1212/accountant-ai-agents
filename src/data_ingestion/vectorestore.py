@@ -21,7 +21,6 @@ class VectorStore:
                 embedding=self.embeddings,
                 persist_directory=self.persist_directory
             )
-            self.vectorstore.persist()
             logging.info(f"✅ Created vectorstore with {len(documents)} documents")
             return self.vectorstore
         except Exception as e:

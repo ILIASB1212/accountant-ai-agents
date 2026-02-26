@@ -1,0 +1,76 @@
+2026-02-26 13:46:21,038 - INFO - initialized docuemnt loader
+2026-02-26 13:46:21,038 - INFO - embedding get initialized
+2026-02-26 13:46:21,038 - INFO - \u2705 TextSplitter initialized with chunk_size=800, overlap=200
+2026-02-26 13:46:22,577 - INFO - \u2705 Successfully loaded 241 documents from 1 PDF files:
+2026-02-26 13:46:22,577 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\CGNC\code_generale_de_normalisation_comptable.pdf
+2026-02-26 13:46:22,579 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-26 13:46:27,433 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_cgnc
+2026-02-26 13:46:27,825 - INFO - \u2705 Split 241 documents into 247 chunks
+2026-02-26 13:46:27,857 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-26 13:46:37,532 - INFO - \u2705 Created vectorstore with 247 documents
+2026-02-26 13:46:50,947 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-26 13:46:51,683 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-26 13:48:05,646 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-26 13:48:06,946 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-26 13:49:49,455 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-26 13:49:50,577 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-26 13:51:31,199 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-26 13:51:34,329 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-26 13:55:34,518 - INFO - initialized docuemnt loader
+2026-02-26 13:55:34,518 - INFO - embedding get initialized
+2026-02-26 13:55:34,518 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=200
+2026-02-26 13:55:36,035 - INFO - \u2705 Successfully loaded 241 documents from 1 PDF files:
+2026-02-26 13:55:36,035 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\CGNC\code_generale_de_normalisation_comptable.pdf
+2026-02-26 13:55:36,037 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-26 13:55:40,647 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_cgnc
+2026-02-26 13:55:41,029 - INFO - \u2705 Split 241 documents into 241 chunks
+2026-02-26 13:55:41,054 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-26 13:55:48,843 - INFO - \u2705 Created vectorstore with 241 documents
+2026-02-26 13:58:09,567 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-26 13:58:11,215 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-26 14:21:55,515 - INFO - initialized docuemnt loader
+2026-02-26 14:21:55,515 - INFO - embedding get initialized
+2026-02-26 14:21:55,516 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=200
+2026-02-26 14:24:17,345 - INFO - initialized docuemnt loader
+2026-02-26 14:24:17,345 - INFO - embedding get initialized
+2026-02-26 14:24:17,345 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=200
+2026-02-26 14:24:30,195 - INFO - \u2705 Successfully loaded 331 documents from 3 PDF files:
+2026-02-26 14:24:30,195 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\LOIS_DE_FINANCE\lois_de_finance_2026.pdf
+2026-02-26 14:24:30,195 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\LOIS_DE_FINANCE\lois_de_finance_2025.pdf
+2026-02-26 14:24:30,195 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\LOIS_DE_FINANCE\lois_de_finance_2024.pdf
+2026-02-26 14:24:30,201 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-26 14:24:35,329 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_lois_de_finance
+2026-02-26 14:24:36,045 - INFO - \u2705 Split 331 documents into 516 chunks
+2026-02-26 14:24:36,077 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-26 14:24:51,413 - INFO - \u2705 Created vectorstore with 516 documents
+2026-02-26 14:24:51,452 - INFO - initialized docuemnt loader
+2026-02-26 14:24:51,452 - INFO - embedding get initialized
+2026-02-26 14:24:51,452 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=200
+2026-02-26 14:24:52,650 - INFO - \u2705 Successfully loaded 241 documents from 1 PDF files:
+2026-02-26 14:24:52,650 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\CGNC\code_generale_de_normalisation_comptable.pdf
+2026-02-26 14:24:52,652 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-26 14:24:59,636 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_cgnc
+2026-02-26 14:24:59,825 - INFO - \u2705 Split 241 documents into 241 chunks
+2026-02-26 14:24:59,825 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-26 14:25:07,460 - INFO - \u2705 Created vectorstore with 241 documents
+2026-02-26 14:25:54,630 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-26 14:25:55,532 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-26 14:25:59,534 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-26 14:27:01,741 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-26 14:27:02,976 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-26 14:27:52,981 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-26 14:28:20,466 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-26 14:28:21,417 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-26 14:28:25,107 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-26 14:28:25,321 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-02-26 14:28:25,322 - INFO - Retrying request to /openai/v1/chat/completions in 50.000000 seconds
+2026-02-26 14:29:17,357 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-26 14:30:01,865 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-26 14:30:02,375 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-26 14:30:07,563 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-26 14:31:18,173 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-26 14:31:19,585 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-26 14:31:46,234 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-26 14:31:46,838 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-26 14:32:27,316 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-26 14:32:28,465 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"

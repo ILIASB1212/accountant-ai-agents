@@ -1,0 +1,38 @@
+2026-02-24 17:22:35,308 - INFO - initialized docuemnt loader
+2026-02-24 17:22:35,308 - INFO - embedding get initialized
+2026-02-24 17:22:35,308 - INFO - \u2705 TextSplitter initialized with chunk_size=800, overlap=200
+2026-02-24 17:22:35,314 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-24 17:23:15,974 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_cgnc
+2026-02-24 17:23:16,186 - INFO - \u2705 Split 0 documents into 0 chunks
+2026-02-24 17:23:16,206 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-24 17:23:28,705 - ERROR - \u274c Error creating vectorstore: Expected Embeddings to be non-empty list or numpy array, got [] in upsert.
+2026-02-24 17:32:52,403 - INFO - initialized docuemnt loader
+2026-02-24 17:32:52,403 - INFO - embedding get initialized
+2026-02-24 17:32:52,403 - INFO - \u2705 TextSplitter initialized with chunk_size=800, overlap=200
+2026-02-24 17:32:53,814 - INFO - \u2705 Successfully loaded 241 documents from 1 PDF files:
+2026-02-24 17:32:53,814 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\CGNC\code_generale_de_normalisation_comptable.pdf
+2026-02-24 17:32:53,814 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-24 17:33:01,260 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_cgnc
+2026-02-24 17:33:01,638 - INFO - \u2705 Split 241 documents into 247 chunks
+2026-02-24 17:33:01,654 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-24 17:33:08,393 - ERROR - \u274c Error creating vectorstore: 'Chroma' object has no attribute 'persist'
+2026-02-24 17:34:02,426 - INFO - initialized docuemnt loader
+2026-02-24 17:34:02,426 - INFO - embedding get initialized
+2026-02-24 17:34:02,426 - INFO - \u2705 TextSplitter initialized with chunk_size=800, overlap=200
+2026-02-24 17:34:03,673 - INFO - \u2705 Successfully loaded 241 documents from 1 PDF files:
+2026-02-24 17:34:03,673 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\CGNC\code_generale_de_normalisation_comptable.pdf
+2026-02-24 17:34:03,673 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-24 17:34:11,474 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_cgnc
+2026-02-24 17:34:11,634 - INFO - \u2705 Split 241 documents into 247 chunks
+2026-02-24 17:34:18,887 - ERROR - \u274c Error creating vectorstore: 'Chroma' object has no attribute 'persist'
+2026-02-24 17:38:08,102 - INFO - initialized docuemnt loader
+2026-02-24 17:38:08,102 - INFO - embedding get initialized
+2026-02-24 17:38:08,102 - INFO - \u2705 TextSplitter initialized with chunk_size=800, overlap=200
+2026-02-24 17:38:09,546 - INFO - \u2705 Successfully loaded 241 documents from 1 PDF files:
+2026-02-24 17:38:09,546 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\CGNC\code_generale_de_normalisation_comptable.pdf
+2026-02-24 17:38:09,546 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-24 17:38:12,812 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_cgnc
+2026-02-24 17:38:13,179 - INFO - \u2705 Split 241 documents into 247 chunks
+2026-02-24 17:38:13,204 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-24 17:38:20,205 - INFO - \u2705 Created vectorstore with 247 documents
+2026-02-24 17:40:09,153 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"

@@ -1,0 +1,387 @@
+2026-02-27 11:59:15,210 - INFO - initialized docuemnt loader
+2026-02-27 11:59:15,210 - INFO - embedding get initialized
+2026-02-27 11:59:15,210 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=200
+2026-02-27 11:59:27,353 - INFO - \u2705 Successfully loaded 331 documents from 3 PDF files:
+2026-02-27 11:59:27,353 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\LOIS_DE_FINANCE\lois_de_finance_2024.pdf
+2026-02-27 11:59:27,353 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\LOIS_DE_FINANCE\lois_de_finance_2026.pdf
+2026-02-27 11:59:27,353 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\LOIS_DE_FINANCE\lois_de_finance_2025.pdf
+2026-02-27 11:59:27,353 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 11:59:31,694 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_lois_de_finance
+2026-02-27 11:59:32,338 - INFO - \u2705 Split 331 documents into 516 chunks
+2026-02-27 11:59:32,371 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 11:59:46,794 - INFO - \u2705 Created vectorstore with 516 documents
+2026-02-27 11:59:46,830 - INFO - initialized docuemnt loader
+2026-02-27 11:59:46,830 - INFO - embedding get initialized
+2026-02-27 11:59:46,830 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=250
+2026-02-27 12:00:17,373 - INFO - \u2705 Successfully loaded 765 documents from 1 PDF files:
+2026-02-27 12:00:17,373 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\CGI\Code_impo\u0302ts_2026.pdf
+2026-02-27 12:00:17,387 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 12:00:20,288 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_cgnc
+2026-02-27 12:00:20,871 - INFO - \u2705 Split 765 documents into 791 chunks
+2026-02-27 12:00:20,871 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 12:00:40,254 - INFO - \u2705 Created vectorstore with 791 documents
+2026-02-27 12:00:40,273 - INFO - initialized docuemnt loader
+2026-02-27 12:00:40,273 - INFO - embedding get initialized
+2026-02-27 12:00:40,273 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=200
+2026-02-27 12:00:41,442 - INFO - \u2705 Successfully loaded 241 documents from 1 PDF files:
+2026-02-27 12:00:41,442 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\CGNC\code_generale_de_normalisation_comptable.pdf
+2026-02-27 12:00:41,442 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 12:00:44,269 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_cgnc
+2026-02-27 12:00:44,420 - INFO - \u2705 Split 241 documents into 241 chunks
+2026-02-27 12:00:50,830 - INFO - \u2705 Created vectorstore with 241 documents
+2026-02-27 12:01:24,381 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 12:01:26,097 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 12:03:17,157 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 12:03:18,605 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 12:04:42,250 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 12:04:43,150 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 12:05:40,498 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 12:05:42,108 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 12:06:58,224 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 12:07:00,114 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 12:07:18,314 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 12:07:18,513 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-02-27 12:07:18,514 - INFO - Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+2026-02-27 12:07:27,321 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 12:07:27,483 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-02-27 12:07:27,483 - INFO - Retrying request to /openai/v1/chat/completions in 53.000000 seconds
+2026-02-27 12:08:22,056 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 12:09:30,396 - INFO - initialized docuemnt loader
+2026-02-27 12:09:30,396 - INFO - embedding get initialized
+2026-02-27 12:09:30,396 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=200
+2026-02-27 12:09:42,887 - INFO - \u2705 Successfully loaded 331 documents from 3 PDF files:
+2026-02-27 12:09:42,887 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\LOIS_DE_FINANCE\lois_de_finance_2024.pdf
+2026-02-27 12:09:42,887 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\LOIS_DE_FINANCE\lois_de_finance_2025.pdf
+2026-02-27 12:09:42,887 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\LOIS_DE_FINANCE\lois_de_finance_2026.pdf
+2026-02-27 12:09:42,889 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 12:09:46,447 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_lois_de_finance
+2026-02-27 12:09:47,142 - INFO - \u2705 Split 331 documents into 516 chunks
+2026-02-27 12:09:47,166 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 12:10:00,717 - INFO - \u2705 Created vectorstore with 516 documents
+2026-02-27 12:10:00,748 - INFO - initialized docuemnt loader
+2026-02-27 12:10:00,748 - INFO - embedding get initialized
+2026-02-27 12:10:00,748 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=250
+2026-02-27 12:10:31,943 - INFO - \u2705 Successfully loaded 765 documents from 1 PDF files:
+2026-02-27 12:10:31,943 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\CGI\Code_impo\u0302ts_2026.pdf
+2026-02-27 12:10:31,947 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 12:10:34,908 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_cgnc
+2026-02-27 12:10:35,482 - INFO - \u2705 Split 765 documents into 791 chunks
+2026-02-27 12:10:35,499 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 12:10:59,203 - INFO - \u2705 Created vectorstore with 791 documents
+2026-02-27 12:10:59,222 - INFO - initialized docuemnt loader
+2026-02-27 12:10:59,222 - INFO - embedding get initialized
+2026-02-27 12:10:59,222 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=200
+2026-02-27 12:11:00,415 - INFO - \u2705 Successfully loaded 241 documents from 1 PDF files:
+2026-02-27 12:11:00,415 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\CGNC\code_generale_de_normalisation_comptable.pdf
+2026-02-27 12:11:00,415 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 12:11:03,152 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_cgnc
+2026-02-27 12:11:03,322 - INFO - \u2705 Split 241 documents into 241 chunks
+2026-02-27 12:11:10,574 - INFO - \u2705 Created vectorstore with 241 documents
+2026-02-27 12:43:55,187 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 12:43:56,673 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 12:44:43,091 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 12:44:45,380 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 12:45:42,489 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 12:45:42,980 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 12:45:46,100 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 12:46:20,666 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 12:47:11,940 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 12:47:14,490 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 13:55:39,510 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 13:55:40,339 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 14:09:13,155 - INFO - initialized docuemnt loader
+2026-02-27 14:09:13,160 - INFO - embedding get initialized
+2026-02-27 14:09:13,160 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=200
+2026-02-27 14:09:25,589 - INFO - \u2705 Successfully loaded 331 documents from 3 PDF files:
+2026-02-27 14:09:25,589 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\LOIS_DE_FINANCE\lois_de_finance_2024.pdf
+2026-02-27 14:09:25,589 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\LOIS_DE_FINANCE\lois_de_finance_2025.pdf
+2026-02-27 14:09:25,589 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\LOIS_DE_FINANCE\lois_de_finance_2026.pdf
+2026-02-27 14:09:25,594 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 14:09:28,898 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_lois_de_finance
+2026-02-27 14:09:29,567 - INFO - \u2705 Split 331 documents into 516 chunks
+2026-02-27 14:09:29,599 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 14:09:44,556 - INFO - \u2705 Created vectorstore with 516 documents
+2026-02-27 14:09:44,588 - INFO - initialized docuemnt loader
+2026-02-27 14:09:44,588 - INFO - embedding get initialized
+2026-02-27 14:09:44,588 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=250
+2026-02-27 14:10:15,019 - INFO - \u2705 Successfully loaded 765 documents from 1 PDF files:
+2026-02-27 14:10:15,019 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\CGI\Code_impo\u0302ts_2026.pdf
+2026-02-27 14:10:15,019 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 14:10:21,373 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_CGI
+2026-02-27 14:10:21,945 - INFO - \u2705 Split 765 documents into 791 chunks
+2026-02-27 14:10:21,945 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 14:10:41,677 - INFO - \u2705 Created vectorstore with 791 documents
+2026-02-27 14:10:41,697 - INFO - initialized docuemnt loader
+2026-02-27 14:10:41,698 - INFO - embedding get initialized
+2026-02-27 14:10:41,698 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=200
+2026-02-27 14:10:43,086 - INFO - \u2705 Successfully loaded 241 documents from 1 PDF files:
+2026-02-27 14:10:43,086 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\CGNC\code_generale_de_normalisation_comptable.pdf
+2026-02-27 14:10:43,086 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 14:10:47,096 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_CGNC
+2026-02-27 14:10:47,295 - INFO - \u2705 Split 241 documents into 241 chunks
+2026-02-27 14:10:47,295 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 14:10:53,113 - INFO - \u2705 Created vectorstore with 241 documents
+2026-02-27 14:10:53,113 - INFO - initialized docuemnt loader
+2026-02-27 14:10:53,113 - INFO - embedding get initialized
+2026-02-27 14:10:53,113 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=200
+2026-02-27 14:10:55,269 - INFO - \u2705 Successfully loaded 24 documents from 1 PDF files:
+2026-02-27 14:10:55,269 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\PLAN_COMPTABLE\Plan_Comptable_marocain.pdf
+2026-02-27 14:10:55,269 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 14:10:58,247 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_plan_comptable
+2026-02-27 14:10:58,269 - INFO - \u2705 Split 24 documents into 25 chunks
+2026-02-27 14:10:58,269 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 14:10:58,980 - INFO - \u2705 Created vectorstore with 25 documents
+2026-02-27 14:11:28,816 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 14:11:29,789 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 14:12:20,482 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 14:12:21,235 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 14:13:16,980 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 14:13:17,714 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 14:13:39,643 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 14:13:40,962 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 14:40:04,116 - INFO - initialized docuemnt loader
+2026-02-27 14:40:04,116 - INFO - embedding get initialized
+2026-02-27 14:40:04,116 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=200
+2026-02-27 14:40:16,302 - INFO - \u2705 Successfully loaded 331 documents from 3 PDF files:
+2026-02-27 14:40:16,302 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\LOIS_DE_FINANCE\lois_de_finance_2024.pdf
+2026-02-27 14:40:16,302 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\LOIS_DE_FINANCE\lois_de_finance_2026.pdf
+2026-02-27 14:40:16,302 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\LOIS_DE_FINANCE\lois_de_finance_2025.pdf
+2026-02-27 14:40:16,307 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 14:40:19,870 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_lois_de_finance
+2026-02-27 14:40:20,519 - INFO - \u2705 Split 331 documents into 516 chunks
+2026-02-27 14:40:20,545 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 14:40:37,243 - INFO - \u2705 Created vectorstore with 516 documents
+2026-02-27 14:40:37,275 - INFO - initialized docuemnt loader
+2026-02-27 14:40:37,275 - INFO - embedding get initialized
+2026-02-27 14:40:37,275 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=250
+2026-02-27 14:41:07,798 - INFO - \u2705 Successfully loaded 765 documents from 1 PDF files:
+2026-02-27 14:41:07,798 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\CGI\Code_impo\u0302ts_2026.pdf
+2026-02-27 14:41:07,810 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 14:41:10,778 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_CGI
+2026-02-27 14:41:11,342 - INFO - \u2705 Split 765 documents into 791 chunks
+2026-02-27 14:41:11,342 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 14:41:30,487 - INFO - \u2705 Created vectorstore with 791 documents
+2026-02-27 14:41:30,507 - INFO - embedding get initialized
+2026-02-27 14:41:30,509 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 14:41:33,760 - INFO - \u2705 VectorStore initialized with persist_dir: vectorstore/db_CGNC
+2026-02-27 14:41:33,760 - INFO - initialized docuemnt loader
+2026-02-27 14:41:33,760 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=200
+2026-02-27 14:41:34,971 - INFO - \u2705 Successfully loaded 241 documents from 1 PDF files:
+2026-02-27 14:41:34,971 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\CGNC\code_generale_de_normalisation_comptable.pdf
+2026-02-27 14:41:35,153 - INFO - \u2705 Split 241 documents into 241 chunks
+2026-02-27 14:41:35,153 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 14:41:42,087 - INFO - \u2705 Created vectorstore with 241 documents
+2026-02-27 14:41:42,087 - INFO - initialized docuemnt loader
+2026-02-27 14:41:42,087 - INFO - embedding get initialized
+2026-02-27 14:41:42,087 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=200
+2026-02-27 14:41:44,507 - INFO - \u2705 Successfully loaded 24 documents from 1 PDF files:
+2026-02-27 14:41:44,507 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\PLAN_COMPTABLE\Plan_Comptable_marocain.pdf
+2026-02-27 14:41:44,522 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 14:41:47,435 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_plan_comptable
+2026-02-27 14:41:47,461 - INFO - \u2705 Split 24 documents into 25 chunks
+2026-02-27 14:41:47,462 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 14:41:48,132 - INFO - \u2705 Created vectorstore with 25 documents
+2026-02-27 15:30:42,471 - INFO - initialized docuemnt loader
+2026-02-27 15:30:42,471 - INFO - embedding get initialized
+2026-02-27 15:30:42,471 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=200
+2026-02-27 15:30:54,841 - INFO - \u2705 Successfully loaded 331 documents from 3 PDF files:
+2026-02-27 15:30:54,841 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\LOIS_DE_FINANCE\lois_de_finance_2024.pdf
+2026-02-27 15:30:54,841 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\LOIS_DE_FINANCE\lois_de_finance_2025.pdf
+2026-02-27 15:30:54,841 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\LOIS_DE_FINANCE\lois_de_finance_2026.pdf
+2026-02-27 15:30:54,855 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 15:30:58,073 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_lois_de_finance
+2026-02-27 15:30:58,715 - INFO - \u2705 Split 331 documents into 516 chunks
+2026-02-27 15:30:58,749 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 15:31:13,547 - INFO - \u2705 Created vectorstore with 516 documents
+2026-02-27 15:31:13,578 - INFO - initialized docuemnt loader
+2026-02-27 15:31:13,579 - INFO - embedding get initialized
+2026-02-27 15:31:13,579 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=250
+2026-02-27 15:31:45,536 - INFO - \u2705 Successfully loaded 765 documents from 1 PDF files:
+2026-02-27 15:31:45,536 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\CGI\Code_impo\u0302ts_2026.pdf
+2026-02-27 15:31:45,537 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 15:31:48,348 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_CGI
+2026-02-27 15:31:48,919 - INFO - \u2705 Split 765 documents into 791 chunks
+2026-02-27 15:31:48,919 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 15:32:09,012 - INFO - \u2705 Created vectorstore with 791 documents
+2026-02-27 15:32:09,039 - INFO - embedding get initialized
+2026-02-27 15:32:09,040 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 15:32:11,847 - INFO - \u2705 VectorStore initialized with persist_dir: vectorstore/db_CGNC
+2026-02-27 15:32:11,847 - INFO - initialized docuemnt loader
+2026-02-27 15:32:11,847 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=250
+2026-02-27 15:32:12,993 - INFO - \u2705 Successfully loaded 241 documents from 1 PDF files:
+2026-02-27 15:32:12,993 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\CGNC\code_generale_de_normalisation_comptable.pdf
+2026-02-27 15:32:13,145 - INFO - \u2705 Split 241 documents into 241 chunks
+2026-02-27 15:36:27,802 - INFO - initialized docuemnt loader
+2026-02-27 15:36:27,802 - INFO - embedding get initialized
+2026-02-27 15:36:27,802 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=200
+2026-02-27 15:36:39,951 - INFO - \u2705 Successfully loaded 331 documents from 3 PDF files:
+2026-02-27 15:36:39,951 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\LOIS_DE_FINANCE\lois_de_finance_2025.pdf
+2026-02-27 15:36:39,951 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\LOIS_DE_FINANCE\lois_de_finance_2024.pdf
+2026-02-27 15:36:39,951 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\LOIS_DE_FINANCE\lois_de_finance_2026.pdf
+2026-02-27 15:36:39,957 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 15:36:43,508 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_lois_de_finance
+2026-02-27 15:36:44,170 - INFO - \u2705 Split 331 documents into 516 chunks
+2026-02-27 15:36:44,204 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 15:36:59,192 - INFO - \u2705 Created vectorstore with 516 documents
+2026-02-27 15:36:59,221 - INFO - initialized docuemnt loader
+2026-02-27 15:36:59,221 - INFO - embedding get initialized
+2026-02-27 15:36:59,221 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=250
+2026-02-27 15:37:29,860 - INFO - \u2705 Successfully loaded 765 documents from 1 PDF files:
+2026-02-27 15:37:29,860 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\CGI\Code_impo\u0302ts_2026.pdf
+2026-02-27 15:37:29,861 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 15:37:32,944 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_CGI
+2026-02-27 15:37:33,522 - INFO - \u2705 Split 765 documents into 791 chunks
+2026-02-27 15:37:33,535 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 15:37:53,301 - INFO - \u2705 Created vectorstore with 791 documents
+2026-02-27 15:37:53,321 - INFO - embedding get initialized
+2026-02-27 15:37:53,323 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 15:37:56,576 - INFO - \u2705 VectorStore initialized with persist_dir: vectorstore/db_CGNC
+2026-02-27 15:37:56,576 - INFO - initialized docuemnt loader
+2026-02-27 15:37:56,576 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=250
+2026-02-27 15:37:57,899 - INFO - \u2705 Successfully loaded 241 documents from 1 PDF files:
+2026-02-27 15:37:57,899 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\CGNC\code_generale_de_normalisation_comptable.pdf
+2026-02-27 15:37:58,089 - INFO - \u2705 Split 241 documents into 241 chunks
+2026-02-27 15:40:18,406 - INFO - initialized docuemnt loader
+2026-02-27 15:40:18,408 - INFO - embedding get initialized
+2026-02-27 15:40:18,408 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=200
+2026-02-27 15:40:32,916 - INFO - \u2705 Successfully loaded 331 documents from 3 PDF files:
+2026-02-27 15:40:32,916 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\LOIS_DE_FINANCE\lois_de_finance_2025.pdf
+2026-02-27 15:40:32,916 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\LOIS_DE_FINANCE\lois_de_finance_2024.pdf
+2026-02-27 15:40:32,916 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\LOIS_DE_FINANCE\lois_de_finance_2026.pdf
+2026-02-27 15:40:32,916 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 15:40:36,414 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_lois_de_finance
+2026-02-27 15:40:37,070 - INFO - \u2705 Split 331 documents into 516 chunks
+2026-02-27 15:40:37,096 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 15:40:53,790 - INFO - \u2705 Created vectorstore with 516 documents
+2026-02-27 15:40:53,818 - INFO - initialized docuemnt loader
+2026-02-27 15:40:53,818 - INFO - embedding get initialized
+2026-02-27 15:40:53,818 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=250
+2026-02-27 15:41:25,649 - INFO - \u2705 Successfully loaded 765 documents from 1 PDF files:
+2026-02-27 15:41:25,649 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\CGI\Code_impo\u0302ts_2026.pdf
+2026-02-27 15:41:25,649 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 15:41:28,527 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_CGI
+2026-02-27 15:41:29,111 - INFO - \u2705 Split 765 documents into 791 chunks
+2026-02-27 15:41:29,111 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 15:41:53,785 - INFO - \u2705 Created vectorstore with 791 documents
+2026-02-27 15:41:53,810 - INFO - embedding get initialized
+2026-02-27 15:41:53,810 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 15:41:57,119 - INFO - \u2705 VectorStore initialized with persist_dir: vectorstore/db_CGNC
+2026-02-27 15:41:57,119 - INFO - initialized docuemnt loader
+2026-02-27 15:41:57,119 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=250
+2026-02-27 15:41:58,340 - INFO - \u2705 Successfully loaded 241 documents from 1 PDF files:
+2026-02-27 15:41:58,340 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\CGNC\code_generale_de_normalisation_comptable.pdf
+2026-02-27 15:41:58,508 - INFO - \u2705 Split 241 documents into 241 chunks
+2026-02-27 15:41:58,508 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 15:42:05,676 - INFO - \u2705 Created vectorstore with 241 documents
+2026-02-27 15:44:14,489 - INFO - initialized docuemnt loader
+2026-02-27 15:44:14,489 - INFO - embedding get initialized
+2026-02-27 15:44:14,489 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=200
+2026-02-27 15:44:26,885 - INFO - \u2705 Successfully loaded 331 documents from 3 PDF files:
+2026-02-27 15:44:26,885 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\LOIS_DE_FINANCE\lois_de_finance_2025.pdf
+2026-02-27 15:44:26,885 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\LOIS_DE_FINANCE\lois_de_finance_2024.pdf
+2026-02-27 15:44:26,885 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\LOIS_DE_FINANCE\lois_de_finance_2026.pdf
+2026-02-27 15:44:26,887 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 15:44:30,102 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_lois_de_finance
+2026-02-27 15:44:30,757 - INFO - \u2705 Split 331 documents into 516 chunks
+2026-02-27 15:44:30,794 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 15:44:46,508 - INFO - \u2705 Created vectorstore with 516 documents
+2026-02-27 15:44:46,530 - INFO - initialized docuemnt loader
+2026-02-27 15:44:46,530 - INFO - embedding get initialized
+2026-02-27 15:44:46,530 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=250
+2026-02-27 15:45:16,554 - INFO - \u2705 Successfully loaded 765 documents from 1 PDF files:
+2026-02-27 15:45:16,554 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\CGI\Code_impo\u0302ts_2026.pdf
+2026-02-27 15:45:16,554 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 15:45:19,372 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_CGI
+2026-02-27 15:45:19,950 - INFO - \u2705 Split 765 documents into 791 chunks
+2026-02-27 15:45:19,954 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 15:45:40,211 - INFO - \u2705 Created vectorstore with 791 documents
+2026-02-27 15:45:40,234 - INFO - embedding get initialized
+2026-02-27 15:45:40,236 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 15:45:43,100 - INFO - \u2705 VectorStore initialized with persist_dir: vectorstore/db_CGNC
+2026-02-27 15:45:43,100 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 15:45:43,141 - INFO - \u2705 Loaded existing vectorstore from vectorstore/db_CGNC
+2026-02-27 15:48:04,287 - INFO - embedding get initialized
+2026-02-27 15:48:04,289 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 15:48:07,667 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_lois_de_finance
+2026-02-27 15:48:07,696 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 15:48:07,776 - INFO - \u2705 Loaded existing vectorstore from vectorestore/db_lois_de_finance
+2026-02-27 15:48:07,804 - INFO - initialized docuemnt loader
+2026-02-27 15:48:07,804 - INFO - embedding get initialized
+2026-02-27 15:48:07,804 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=250
+2026-02-27 15:48:38,430 - INFO - \u2705 Successfully loaded 765 documents from 1 PDF files:
+2026-02-27 15:48:38,430 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\CGI\Code_impo\u0302ts_2026.pdf
+2026-02-27 15:48:38,430 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 15:48:41,327 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_CGI
+2026-02-27 15:48:42,067 - INFO - \u2705 Split 765 documents into 791 chunks
+2026-02-27 15:48:42,083 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 15:49:00,650 - INFO - \u2705 Created vectorstore with 791 documents
+2026-02-27 15:49:00,669 - INFO - embedding get initialized
+2026-02-27 15:49:00,670 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 15:49:03,469 - INFO - \u2705 VectorStore initialized with persist_dir: vectorstore/db_CGNC
+2026-02-27 15:49:03,469 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 15:49:03,512 - INFO - \u2705 Loaded existing vectorstore from vectorstore/db_CGNC
+2026-02-27 15:49:03,512 - INFO - initialized docuemnt loader
+2026-02-27 15:49:03,512 - INFO - embedding get initialized
+2026-02-27 15:49:03,512 - INFO - \u2705 TextSplitter initialized with chunk_size=1000, overlap=200
+2026-02-27 15:49:05,854 - INFO - \u2705 Successfully loaded 24 documents from 1 PDF files:
+2026-02-27 15:49:05,854 - INFO -  \U0001f4c4 C:\Users\VICTUS\Desktop\accountant\data\PLAN_COMPTABLE\Plan_Comptable_marocain.pdf
+2026-02-27 15:49:05,854 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 15:49:08,818 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_plan_comptable
+2026-02-27 15:49:08,843 - INFO - \u2705 Split 24 documents into 25 chunks
+2026-02-27 15:49:08,843 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 15:49:09,498 - INFO - \u2705 Created vectorstore with 25 documents
+2026-02-27 15:56:11,513 - INFO - embedding get initialized
+2026-02-27 15:56:11,513 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 15:56:14,666 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_lois_de_finance
+2026-02-27 15:56:14,695 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 15:56:14,769 - INFO - \u2705 Loaded existing vectorstore from vectorestore/db_lois_de_finance
+2026-02-27 15:56:14,796 - INFO - embedding get initialized
+2026-02-27 15:56:14,797 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 15:56:17,724 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_CGI
+2026-02-27 15:56:17,727 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 15:56:17,759 - INFO - \u2705 Loaded existing vectorstore from vectorestore/db_CGI
+2026-02-27 15:56:17,770 - INFO - embedding get initialized
+2026-02-27 15:56:17,771 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 15:56:20,621 - INFO - \u2705 VectorStore initialized with persist_dir: vectorstore/db_CGNC
+2026-02-27 15:56:20,621 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 15:56:20,662 - INFO - \u2705 Loaded existing vectorstore from vectorstore/db_CGNC
+2026-02-27 15:56:20,665 - INFO - embedding get initialized
+2026-02-27 15:56:20,666 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 15:56:24,146 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_plan_comptable
+2026-02-27 15:56:24,148 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 15:56:24,182 - INFO - \u2705 Loaded existing vectorstore from vectorestore/db_plan_comptable
+2026-02-27 15:56:43,366 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-02-27 15:57:33,776 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 15:57:37,296 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 15:58:14,457 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 15:58:17,174 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 15:59:48,091 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 15:59:48,998 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 16:05:04,534 - INFO - embedding get initialized
+2026-02-27 16:05:04,534 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 16:05:07,965 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_lois_de_finance
+2026-02-27 16:05:08,003 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 16:05:08,161 - INFO - \u2705 Loaded existing vectorstore from vectorestore/db_lois_de_finance
+2026-02-27 16:05:08,187 - INFO - embedding get initialized
+2026-02-27 16:05:08,187 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 16:05:11,007 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_CGI
+2026-02-27 16:05:11,018 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 16:05:11,052 - INFO - \u2705 Loaded existing vectorstore from vectorestore/db_CGI
+2026-02-27 16:05:11,065 - INFO - embedding get initialized
+2026-02-27 16:05:11,066 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 16:05:14,183 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_CGNC
+2026-02-27 16:05:14,183 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 16:05:14,222 - INFO - \u2705 Loaded existing vectorstore from vectorestore/db_CGNC
+2026-02-27 16:05:14,224 - INFO - embedding get initialized
+2026-02-27 16:05:14,226 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-27 16:05:17,057 - INFO - \u2705 VectorStore initialized with persist_dir: vectorestore/db_plan_comptable
+2026-02-27 16:05:17,058 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-27 16:05:17,092 - INFO - \u2705 Loaded existing vectorstore from vectorestore/db_plan_comptable
+2026-02-27 16:05:49,186 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 16:05:49,903 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 16:05:50,425 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-02-27 16:05:50,425 - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-02-27 16:05:56,951 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 16:06:00,034 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-02-27 16:06:00,035 - INFO - Retrying request to /openai/v1/chat/completions in 29.000000 seconds
+2026-02-27 16:06:30,765 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"

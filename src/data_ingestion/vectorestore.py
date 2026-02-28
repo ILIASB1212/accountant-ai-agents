@@ -35,6 +35,7 @@ class VectorStore:
                 persist_directory=self.persist_directory
             )
             logging.info(f"✅ Loaded existing vectorstore from {self.persist_directory}")
+            print(f"✅ Loaded existing vectorstore from {self.persist_directory}")
             return self.vectorstore
         except Exception as e:
             logging.error(f"❌ Error loading vectorstore: {e}")

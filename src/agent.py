@@ -23,9 +23,11 @@ from dotenv import load_dotenv
 from utils.web_search_tool import search
 from utils.rag_web_base_loader_tool import web_loader_tool
 from utils.finance_law import finance_law_tool
+from utils.tax import CGI_tool
 from langgraph.prebuilt import ToolNode
 from langgraph.prebuilt import tools_condition
 from utils.cgnc import cgnc_tool
+from utils.plan_comptable import plan_comptable_tool
 #from utils import search, web_loader_tool
 
 
@@ -41,7 +43,7 @@ class State(TypedDict):
 
 #initiating tools
 
-tools=[cgnc_tool,search,web_loader_tool,finance_law_tool]
+tools=[cgnc_tool,search,web_loader_tool,finance_law_tool,CGI_tool,plan_comptable_tool]
 llm_with_tools=llm_groq.bind_tools(tools)
 #functions for llms
 def superbot(state:State):
@@ -104,8 +106,8 @@ def route_by_keyword(state: State) -> dict:
     last_message = state["messages"][-1].content.lower() if state["messages"] else ""
     
     # Check for accounting keywords
-    accounting_keywords = ["cgnc", "comptabilité", "accounting", "maroc", "morocco", 
-                          "financial", "tax", "fiscal", "amortissement", "bilan"]
+    accounting_keywords = ["cgnc", "comptabilité", "accounting", 
+                          "financial", "amortissement", "bilan"]
     
     if any(keyword in last_message for keyword in accounting_keywords):
         # Force the model to use accounting tool
